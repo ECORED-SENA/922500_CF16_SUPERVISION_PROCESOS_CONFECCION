@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Laboratorio textil',
+    descripcionCurso:
+      'La identificación de fibras se logra a través de la implementación de diferentes ensayos que, llevados a cabo dentro de los laboratorios textiles, permiten identificar la estructura y características principales de una fibra, la cual es la base de los textiles.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -31,28 +40,52 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Laboratorio textil',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Análisis y desarrollo de muestras',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Método microscópico',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Método de la solubilidad química',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Método del punto de fusión',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Método de la densidad o peso específico',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Método del teñido',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Método de la espectroscopia infrarroja',
+            hash: 't_2_6',
+          },
+          {
+            numero: '2.7',
+            titulo: 'Otros ensayos realizados dentro de la industria textil',
+            hash: 't_2_7',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +135,171 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Laboratorio textil',
+      referencia:
+        'SENA. (2018). <em>Certificación laboratorio textil</em> [video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/45ORlEwcfqs',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Método microscópico',
+      referencia:
+        'Proyecto Arce Escuelas de Diseño. (2013). <em>Identificación de fibras</em> [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/45ORlEwcfqs',
+    },
+    {
+      tema: 'Otros ensayos realizados dentro de la industria textil',
+      referencia:
+        'Instron. (2017). <em>Instron® | ASTM D5035 Breaking Force and Elongation of Textile Fabrics (Strip Method)</em> [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/45ORlEwcfqs',
+    },
+    {
+      tema: 'Otros ensayos realizados dentro de la industria textil',
+      referencia:
+        'IntertekMexico. (2013). <em>Prueba Textil de Frote Intertek</em> [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/Yg1Woy8M9zM',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Abradante',
+      significado:
+        'se refiere al elemento que interviene en la abrasión de un tejido, puesto que al rozarse constantemente generará desgaste.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Abrasión',
+      significado:
+        'hace referencia a la acción de frotar un tejido una gran cantidad de veces hasta lograr desgastarlo.',
+    },
+    {
+      termino: 'Cromática',
+      significado: 'hace referencia a la colorimetría o el estudio del color.',
+    },
+    {
+      termino: 'Bicompuesto',
+      significado:
+        'que contiene dos compuestos de un mismo elemento, por ejemplo, una fibra que en su estructura en vista transversal se observan dos núcleos.',
+    },
+    {
+      termino: 'Combustión',
+      significado:
+        'proceso empleado en ensayos de identificación de fibras que consiste en quemar cada una de las fibras de diferente procedencia para determinar características que las identifican.',
+    },
+    {
+      termino: 'Deslustrado',
+      significado:
+        'concepto también encontrado como deslustrar, hace referencia al brillo que se obtiene de un elemento.',
+    },
+    {
+      termino: 'Desgarre',
+      significado:
+        'efecto generado al aplicar presión sobre un material textil hasta que sus tejidos se deshacen o se rompen.',
+    },
+    {
+      termino: 'Fusión',
+      significado:
+        'proceso empleado en ensayos de identificación de fibras textiles, que consiste en unir dos o más fibras con solventes hasta lograr el ablandamiento de una mezcla de fibras.',
+    },
+    {
+      termino: 'Frote',
+      significado:
+        'resultado de la acción de rozar constantemente un material textil, con el fin de generar resultados de desgaste.',
+    },
+    {
+      termino: 'Micras',
+      significado:
+        'unidad de medida de longitud que representa una millonésima parte de un metro.',
+    },
+    {
+      termino: 'Rotámetro',
+      significado:
+        'dispositivo utilizado para medir el caudal de líquidos y gases.',
+    },
+    {
+      termino: 'Solidez',
+      significado:
+        'en el contexto textil, hace referencia a la resistencia que posee un material para mantener el color agregado a través del proceso de teñido.',
+    },
+    {
+      termino: 'Trilobal',
+      significado:
+        'forma que contiene una fibra desde una vista transversal, con tres extremidades ovaladas. ',
+    },
+    {
+      termino: 'Tetracloroetileno',
+      significado:
+        'es una sustancia química manufacturada, usualmente empleada en procesos de lavado en seco en fibras textiles. ',
+    },
+    {
+      termino: 'Xileno',
+      significado:
+        'es una sustancia líquida, incolora, usualmente tiene un olor dulce; se debe tener especial cuidado, dado que es inflamable. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'AVENO Lab Testing Instruments. (s.f.) <em>Clasificador de grapas de peine de fibra de lana AR10.</em>',
+      link:
+        'https://es.avenotester.com/wool-fiber-comb-stapling-sorter-ar10_p141.html',
+    },
+    {
+      referencia: 'Bastos. (2019). <em>Equipos James Heal.</em>',
+      link: 'https://www.bastoscia.com/textil/calidad/james-heal/',
+    },
+    {
+      referencia:
+        'Cromtek. (s.f.). <em>Accesorios ATR para FTIR - Specac</em>. ',
+      link: 'https://www.cromtek.cl/producto/accesorios-atr-para-ftir-specac/',
+    },
+    {
+      referencia:
+        'Lafayette. (2019). <em>¿Cuáles son las principales pruebas de calidad en la industria textil? </em>',
+      link:
+        'https://www.lafayette.com/cuales-son-las-principales-pruebas-de-calidad-en-la-industria-textil/',
+    },
+    {
+      referencia:
+        'Lockuán, F. (2013). <em>La industria textil y su control de calidad</em>. Budetex. ',
+      link: 'http://budetex.com/4.info.html',
+    },
+    {
+      referencia:
+        'Ortiz, A. (2017). <em>Procesos textiles</em>. El profe Abdón. Moda y Confección. ',
+      link: 'https://abortiz.wixsite.com/textiles/procesos-textiles',
+    },
+    {
+      referencia:
+        'Pesok, J. (2012). <em>Introducción a la tecnología textil</em>. Universidad de la República. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/79774?page=10 ',
+    },
+    {
+      referencia:
+        'Portales, R. (2014). <em>Identificación de fibras individuales por el método de disolución o solubilidad.</em> Química textil. ',
+      link:
+        'http://quimica-textil-fiq-unac.blogspot.com/2014/09/identificacion-de-fibras-individuales.html',
+    },
+    {
+      referencia:
+        'SENA. (2020). <em>Equipo de Desarrollo Curricular, SENA Programa Técnico en Patronaje Industrial de Prendas de Vestir.</em> Centro de Manufactura en Textil y Cuero, Distrito Capital.',
+    },
+    {
+      referencia: 'Suttex. (2018). <em>Perspirómetro</em>. ',
+      link: 'https://suttex.mx/productos/perspirometro/',
+    },
+    {
+      referencia: 'U.S. PHARMACOPEIA. (s.f.). <em>Cotton</em>. ',
+      link: 'http://www.pharmacopeia.cn/v29240/usp29nf24s0_c691.html',
+    },
+    {
+      referencia:
+        'Universidad Técnica del Norte. (2020). <em>Breve descripción de los equipos disponibles en los laboratorios de la carrera de textiles</em>. Facultad de Ingeniería en Ciencias Aplicadas. ',
+      link:
+        'https://textiles.utn.edu.ec/wp-content/uploads/2020/11/3.-ANEXO-ESPECIFICACIONES-DE-LOS-EQUIPOS-DE-LABORATORIO.pdf',
     },
   ],
   creditos: [
@@ -151,10 +323,37 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Paola Angélica Castro Salazar',
+          cargo: 'Experta Temática',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
+        },
+        {
+          nombre: 'María Camila Álvarez Trujillo',
+          cargo: 'Experta Temática',
+          centro:
+            'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
+        },
+        {
+          nombre: 'Vilma Perilla Méndez',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Revisor Metodológico y Pedagógico',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrección de estilo',
+          centro: 'Regional Tolima – Centro Agropecuario La Granja',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus ',
+          cargo: 'Metodólogo para formación virtual',
+          centro:
+            'Regional Santander – Centro Industrial del Diseño y la Manufactura',
         },
       ],
     },
@@ -162,22 +361,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Yerson Fabian Zarate Saavedra',
           cargo: 'Diseñador web',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Andrea Paola Botello De la Rosa',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e ilustración',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carmen Alicia Martínez Torres',
           cargo: 'Animador y Producción audiovisual',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Emilsen Alfonso Bautista',
+          cargo: 'Actividad didáctica',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
