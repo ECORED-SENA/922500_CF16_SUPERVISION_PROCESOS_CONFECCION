@@ -308,12 +308,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Líder del equipo',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de línea de producción',
+          cargo: 'Responsable de Línea de Producción',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
@@ -361,16 +361,10 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Yerson Fabian Zarate Saavedra',
-          cargo: 'Diseñador web',
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Animador y Productor Multimedia',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Desarrollador Fullstack',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
@@ -379,10 +373,22 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Yerson Fabián Zarate Saavedra',
+          cargo: 'Diseñador de Contenidos Digitales',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Andrea Paola Botello De la Rosa',
+          cargo: 'Desarrollador Full-Stack',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Emilsen Alfonso Bautista',

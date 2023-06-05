@@ -19,7 +19,7 @@
                 b.t-red El SENA posee uno de los laboratorios textiles más importantes en Latinoamérica, dado que su estructura tiene las condiciones óptimas en las que se desarrollan ensayos de acuerdo con normatividad técnica y con criterios de calidad que exigen los diferentes organismos de la industria textil, como la ONAC (Organismo Nacional de Acreditación). 
                 | Esto ha hecho que el SENA obtenga la acreditación del Laboratorio de Calidad Textil hasta el año 2025, con proyección de renovación. Actualmente, más de quinientas empresas a nivel nacional e internacional realizan aproximadamente 22 ensayos que cuentan con acreditación, como los de resistencia a roturas, desgarre de las telas, solidez en el color sometidos a frote, entre otros. (SENA, 2020)  
             .col-md-4.mb-4.ps-md-0(data-aos="fade-left")
-              img(src='@/assets/curso/temas/t1/img.png' alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/t1/img.png' alt='')
 
           .col-md-10.mb-5(data-aos="fade-down")   
             .tarjeta.bg-color-secundario.p-3
@@ -224,7 +224,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Reglamento Laboratorio Textil y Gestión Industrial – SENA  
-                  p.mb-0 Consulte el reglamento del laboratorio SENA, en el cual se especifican las condiciones de administración y seguridad para el desarrollo de actividades en el mismo. 
+                  p.mb-0 Le invitamos a revisar las normas del laboratorio SENA, donde se detallan las reglas sobre cómo se debe administrar y mantener seguro el lugar mientras se realizan diferentes actividades.	
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo-1_REGLAMENTO_LABORATORIO_TEXTIL_SENA.pdf')" target="_blank")
                     span Descargar
