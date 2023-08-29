@@ -21,14 +21,12 @@
 
           figure(data-aos="fade-down")
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/dKAOus_Xpns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            figcaption Video. Laboratorio textil
 
     p(data-aos="fade") Para la elaboración de este componente, se abordaron varios autores conocidos en 
       b.t-red laboratorio textil
       |, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. 
-
-
 
 
 </template>
