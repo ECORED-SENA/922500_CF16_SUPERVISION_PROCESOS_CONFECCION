@@ -136,29 +136,28 @@ export default {
   complementario: [
     {
       tema: 'Laboratorio textil',
-      referencia:
-        'SENA. (2018). <em>Certificación laboratorio textil</em> [video]. YouTube. ',
+      referencia: 'SENA. (2018). <em>Certificación laboratorio textil</em> ',
       tipo: 'Video',
       link: 'https://youtu.be/45ORlEwcfqs',
     },
     {
       tema: 'Método microscópico',
       referencia:
-        'Proyecto Arce Escuelas de Diseño. (2013). <em>Identificación de fibras</em> [video]. YouTube.',
+        'Proyecto Arce Escuelas de Diseño. (2013). <em>Identificación de fibras</em> ',
       tipo: 'Video',
       link: 'https://youtu.be/45ORlEwcfqs',
     },
     {
       tema: 'Otros ensayos realizados dentro de la industria textil',
       referencia:
-        'Instron. (2017). <em>Instron® | ASTM D5035 Breaking Force and Elongation of Textile Fabrics (Strip Method)</em> [video]. YouTube.',
+        'Instron. (2017). <em>Instron® | ASTM D5035 Breaking Force and Elongation of Textile Fabrics (Strip Method)</em> ',
       tipo: 'Video',
       link: 'https://youtu.be/45ORlEwcfqs',
     },
     {
       tema: 'Otros ensayos realizados dentro de la industria textil',
       referencia:
-        'IntertekMexico. (2013). <em>Prueba Textil de Frote Intertek</em> [video]. YouTube.',
+        'IntertekMexico. (2013). <em>Prueba Textil de Frote Intertek</em> ',
       tipo: 'Video',
       link: 'https://youtu.be/Yg1Woy8M9zM',
     },
@@ -264,7 +263,8 @@ export default {
     {
       referencia:
         'Lockuán, F. (2013). <em>La industria textil y su control de calidad</em>. Budetex. ',
-      link: 'http://budetex.com/4.info.html',
+      link:
+        'https://www.academia.edu/33609006/I_La_industria_textil_y_su_control_de_calidad',
     },
     {
       referencia:
@@ -286,10 +286,6 @@ export default {
     {
       referencia:
         'SENA. (2020). <em>Equipo de Desarrollo Curricular, SENA Programa Técnico en Patronaje Industrial de Prendas de Vestir.</em> Centro de Manufactura en Textil y Cuero, Distrito Capital.',
-    },
-    {
-      referencia: 'Suttex. (2018). <em>Perspirómetro</em>. ',
-      link: 'https://suttex.mx/productos/perspirometro/',
     },
     {
       referencia: 'U.S. PHARMACOPEIA. (s.f.). <em>Cotton</em>. ',
@@ -315,7 +311,7 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable de Línea de Producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -326,34 +322,34 @@ export default {
           nombre: 'Paola Angélica Castro Salazar',
           cargo: 'Experta Temática',
           centro:
-            'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
+            'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
         },
         {
           nombre: 'María Camila Álvarez Trujillo',
           cargo: 'Experta Temática',
           centro:
-            'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
+            'Centro de Formación en Diseño, Confección y Moda - Regional Antioquia',
         },
         {
           nombre: 'Vilma Perilla Méndez',
           cargo: 'Diseñadora Instruccional',
-          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital ',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Revisor Metodológico y Pedagógico',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Darío González',
           cargo: 'Corrección de estilo',
-          centro: 'Regional Tolima – Centro Agropecuario La Granja',
+          centro: 'Centro Agropecuario La Granja - Regional Tolima',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus ',
           cargo: 'Metodólogo para formación virtual',
           centro:
-            'Regional Santander – Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -382,13 +378,13 @@ export default {
           nombre: 'Yerson Fabián Zarate Saavedra',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Desarrollador Full-Stack',
+          cargo: 'Desarrollador Full-stack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Emilsen Alfonso Bautista',
@@ -402,22 +398,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Álvarez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

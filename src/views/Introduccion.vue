@@ -13,10 +13,10 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.mb-4
 
-          .fondo-intro2.row.align-items-center.mb-5.p-md-5.p-4
-            .col-md-1.col-3.mx-2.mb-4.mb-md-0(data-aos="fade-right")
+          .fondo-intro2.row.align-items-center.py-md-5.p-4.mb-5
+            .col-lg-1.col-md-2.col-3.px-2.mb-3.mb-lg-0(data-aos="fade-right")
               img(src='@/assets/curso/temas/intro/ico.svg', alt='')
-            .col-md-10(data-aos="fade-left")
+            .col-lg-10.col-md-10(data-aos="fade-left")
               p.mb-0 Dentro de la industria textil, la corroboración de los componentes de las fibras es uno de los procedimientos más importantes; para comenzar con su estudio, lo invitamos a ver el siguiente video.
 
           figure(data-aos="fade-down")

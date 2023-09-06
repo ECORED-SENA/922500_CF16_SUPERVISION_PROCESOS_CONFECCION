@@ -11,21 +11,21 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.mb-4
 
-          .row.mb-3
-            .col-md-8.mb-4(data-aos="fade-right")
+          .row.justify-content-center.mb-3
+            .col-lg-8.mb-4(data-aos="fade-right")
               .cajon.color-secundario.p-4.mb-4
                 p.mb-0 Un laboratorio textil es un espacio ambientado con condiciones específicas que propician la aplicación de ensayos en la identificación de fibras textiles, comportamiento y estructura de los diferentes tejidos planos, de punto y no tejidos. Para que este espacio funcione entorno a la aplicación de ensayos técnicos y no técnicos, se hace indispensable emplear equipos en los que se desarrollen los diferentes análisis de corte cualitativo y cuantitativo, asimismo, las condiciones óptimas en las que estos deben ejecutarse, con la finalidad de evitar malinterpretación en los datos obtenidos y que estos puedan ser fiables y verificables.
               p 
                 b.t-red El SENA posee uno de los laboratorios textiles más importantes en Latinoamérica, dado que su estructura tiene las condiciones óptimas en las que se desarrollan ensayos de acuerdo con normatividad técnica y con criterios de calidad que exigen los diferentes organismos de la industria textil, como la ONAC (Organismo Nacional de Acreditación). 
                 | Esto ha hecho que el SENA obtenga la acreditación del Laboratorio de Calidad Textil hasta el año 2025, con proyección de renovación. Actualmente, más de quinientas empresas a nivel nacional e internacional realizan aproximadamente 22 ensayos que cuentan con acreditación, como los de resistencia a roturas, desgarre de las telas, solidez en el color sometidos a frote, entre otros. (SENA, 2020)  
-            .col-md-4.mb-4.ps-md-0(data-aos="fade-left")
+            .col-lg-4.col-md-6.col-9.mb-4.ps-md-0(data-aos="fade-left")
               img(src='@/assets/curso/temas/t1/img.png' alt='')
 
-          .col-md-10.mb-5(data-aos="fade-down")   
+          .col-lg-10.mb-5(data-aos="fade-down")   
             .tarjeta.bg-color-secundario.p-3
               .row.justify-content-around.align-items-center
-                .col-3.col-sm-2.col-lg-2.px-md-4
-                  img.px-md-4(src="@/assets/curso/temas/t1/video.svg")
+                .col-3.col-sm-2.col-lg-2.px-lg-4
+                  img.px-lg-4(src="@/assets/curso/temas/t1/video.svg")
                 .col.ps-md-0
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
@@ -53,11 +53,11 @@
               img.me-2(src='@/assets/curso/temas/t1/boton.svg' alt='' style="width: 40px;") 
               h3.text-white.mb-0.pe-5 Tipos de equipos
           
-          .col-md-8.mb-4.mb-md-0(data-aos="fade-right")
+          .col-lg-8.mb-4.mb-md-0(data-aos="fade-right")
             .bg-blue.p-4.mb-4
               p.mb-0 A partir del avance tecnológico, la industria textil se fue ajustando a las necesidades del mercado, logrando mejores resultados con la adaptación de equipos industriales capaces de optimizar recursos, medir los procesos y obtener productos de alta calidad.
             p De esta manera, se generaron nuevos equipos que miden dichos acabados. Entendiendo que hay una gran cantidad de maquinaria para medir un sinfín de productos, se han determinado los siguientes equipos según su función de medición de fibras textiles, color y diversas propiedades:
-          .col-md-4.mb-4.mb-md-0(data-aos="fade-left")
+          .col-lg-4.d-none.d-lg-block.mb-4.mb-md-0(data-aos="fade-left")
             img(src='@/assets/curso/temas/t1/img3.png' alt='')
 
           h4.t-red.mt-5(data-aos="fade") A. Equipos de medición de las fibras
@@ -67,47 +67,47 @@
             .tarjeta.fondo-slider.p-4.pt-5
               SlyderA(tipo="b" data-aos="fade-down")
                 .row.justify-content-center
-                  .col-md-6
+                  .col-lg-6
                     h4 Microscopio de proyección
                     p Este equipo amplía la imagen de un textil para ser proyectada en una pantalla, lo cual facilita la medición del diámetro de 100 fibras con una regla graduada. Esta información permitirá construir un histograma para determinar la finura media en micras y su coeficiente de variación (CV%). Sin embargo, se destaca que no es un método muy práctico, por lo que consume bastante tiempo en su aplicación (Pesok, 2012).
-                  .col-md-5
+                  .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide-img1.png' alt='')
                 .row.justify-content-center
-                  .col-md-6
-                    h4 Air Flow Meter o Medidor de Flujo de Aire
+                  .col-lg-6
+                    h4 #[em Air Flow Meter] o Medidor de Flujo de Aire
                     p Este equipo permite realizar una medición del flujo de aire a presión constante o determina la caída de presión a flujo constante y usualmente se aplica sobre lana, aunque también puede utilizarse en algodón. (Pesok, 2012)
                     p Su función consiste en pasar una corriente de aire a través de una muestra del tejido de fibras que han pasado por el proceso de lavado y cardado. Para utilizar dicho equipo, se hace uso de la siguiente fórmula, la cual determina la caída de presión teniendo en cuenta el diámetro de la fibra:
-                    img.mx-auto.mb-4(src='@/assets/curso/temas/t1/form.svg' alt='Fórmula' style="width: 350px")
+                    img.mx-auto.mb-4(src='@/assets/curso/temas/t1/form.svg' alt='El caudal es igual a la multiplicación de las constantes del aparato y la variable constante, dividido 1 menos la constante e por la constante L.' style="width: 350px")
                     p.mb-0 Donde: 
                     p.mb-0 Q = caudal que se mide a través del rotámetro.
                     p.mb-0 d= diámetro de la fibra.
                     p.mb-0 K, A, L, e = constantes del aparato.
                     p ΔP = Variable constante.
-                  .col-md-5
+                  .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide-img2.png' alt='')
                 .row.justify-content-center
-                  .col-md-6
+                  .col-lg-6
                     h4 Optical Fibre Diameter Analyser (OFDA)
                     p Al igual que un microscopio, este equipo permite ampliar la imagen de cada una de las fibras de un textil al usar una cámara de video para observarlas a través de una pantalla, lo cual facilita la medición del diámetro aparente de dichas fibras (Pesok, 2012).
-                  .col-md-5
+                  .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide-img3.png' alt='')
                 .row.justify-content-center
-                  .col-md-6
+                  .col-lg-6
                     h4 Sirolan-Laserscan o Escáner Láser Sirolan
                     p Este equipo desarrollado en Australia permite medir el diámetro aparente de la fibra textil utilizando un rayo láser, al sumergirla en un líquido determinado; cada una de las fibras pasa por la zona de medición que facilita su observación. (Pesok, 2012). 
-                  .col-md-5
+                  .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide-img4.png' alt='')
                 .row.justify-content-center
-                  .col-md-6
+                  .col-lg-6
                     h4 Micronaire
                     p Este equipo permite medir la finura de la fibra textil que se relaciona con el diámetro de ésta. Además, los valores determinados en este equipo tienen influencia directa en la madurez de la fibra, de esta forma, los valores bajos hacen referencia a fibras maduras o aquellas que por su naturaleza son finas. (Pesok, 2012)
-                  .col-md-5
+                  .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide-img5.png' alt='')
                 .row.justify-content-center
-                  .col-md-6
+                  .col-lg-6
                     h4 High Volume Instrument (HVI)
                     p Este equipo, que en español significa “instrumento de medición de altos volúmenes de fibra”, es utilizado para medir en muy poco tiempo una gran cantidad de características de fibras textiles, como la finura, el color, la madurez, entre otros.
-                  .col-md-5
+                  .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide-img6.png' alt='')
 
     
@@ -118,57 +118,57 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center
 
-          .col-md-3.mb-4.mb-md-0
+          .col-lg-3.d-none.d-lg-block.mb-4.mb-md-0
             img(src="@/assets/curso/temas/t1/img4.png")
-          .col-md-9.mb-4.mb-md-0
+          .col-lg-9.mb-4.mb-md-0
             SlyderE.bg-white.p-4.p-md-5(indicadores="derecha")
               .row
-                .col-md-7.mb-4.mb-md-0
+                .col-lg-7.mb-4.mb-md-0
                   h4.t-red Lupas
                   p Este sencillo artefacto permite visualizar de mejor manera un tejido para contar sus hilos e identificar sus diseños (Universidad Técnica del Norte, 2020).
-                .col-md-5
+                .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide2-img1.png', alt='')
               .row
-                .col-md-7.mb-4.mb-md-0
+                .col-lg-7.mb-4.mb-md-0
                   h4.t-red Torsiómetro
                   p Este equipo permite determinar la cantidad de torsiones o vueltas que son capaces de formar los diferentes hilos que componen un hilo compuesto. Su función se centra en generar tensión en el hilo que se ha sujetado de los dos extremos. Al encender el aparato, los hilos empiezan a girar para deshacer la torsión de cada uno de ellos. (Universidad Técnica del Norte, 2020)
-                .col-md-5
+                .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide2-img2.png', alt='')
               .row
-                .col-md-7.mb-4.mb-md-0
+                .col-lg-7.mb-4.mb-md-0
                   h4.t-red Dinamómetro
                   p Este instrumento de medición no se utiliza en tejidos, pero se puede aplicar en telas, piel y demás materiales, permitiendo identificar una gran cantidad de variaciones que puede sufrir el material al aplicar una fuerza diferente, como la tensión, el desgarre, la flexión, rotura, etc. (Universidad Técnica del Norte, 2020)
-                .col-md-5
+                .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide2-img3.png', alt='')
               .row
-                .col-md-7.mb-4.mb-md-0
+                .col-lg-7.mb-4.mb-md-0
                   h4.t-red Martindale
                   p Este equipo permite medir el nivel de abrasión de una tela. Para ello, se debe ubicar el material en las capas inferiores del instrumento de medición y se continúa con la frotación del abradante, que usualmente puede estar compuesto de lana peinada o malla de alambre. Al realizar este procedimiento, será posible identificar el nivel de desgaste, establecer si hay un cambio de apariencia o la durabilidad de los hilos al momento en que se rompen. (Bastos, 2019)
-                .col-md-5
+                .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide2-img4.png', alt='')
               .row
-                .col-md-7.mb-4.mb-md-0
+                .col-lg-7.mb-4.mb-md-0
                   h4.t-red Flexiburn
                   p Este equipo permite medir el nivel de inflamabilidad de un textil y la facilidad de propagación de la llama sobre la tela, lo cual está directamente relacionado con la seguridad de los materiales con los que se fabrican textiles del hogar como cortinas, tapicerías, etc. (Bastos, 2019)
-                .col-md-5
+                .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide2-img5.png', alt='')
               .row
-                .col-md-7.mb-4.mb-md-0
+                .col-lg-7.mb-4.mb-md-0
                   h4.t-red Elmatear
                   p Este equipo permite medir el nivel de desgarre de un material textil, haciendo uso del método balístico. El instrumento se manipula a través de un mecanismo electrónico que contiene un conjunto de pesas para tratar la tela y evaluar su resistencia. (Bastos, 2019)
-                .col-md-5
+                .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide2-img6.png', alt='')
               .row
-                .col-md-7.mb-4.mb-md-0
+                .col-lg-7.mb-4.mb-md-0
                   h4.t-red Medidor de arrugas
                   p Como su nombre lo indica este equipo permite medir el nivel de recuperación de arrugas que se genera en un material textil. Este funciona con un conjunto de pesas que se aplican en la tela para contraerla, de la cual se evalúa su capacidad para regresar a su estado. (Bastos, 2019)
-                .col-md-5
+                .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide2-img7.png', alt='')
               .row
-                .col-md-7.mb-4.mb-md-0
+                .col-lg-7.mb-4.mb-md-0
                   h4.t-red Flexiframe
                   p Este equipo permite definir el nivel de estiramiento y restablecimiento de tejidos textiles. Para hacer uso de este, el instrumento posee una serie de pesas y enganches donde se sujeta el material textil para realizar los distintos ensayos que se requieran. (Bastos, 2019)
-                .col-md-5
+                .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide2-img8.png', alt='')
 
 
@@ -215,11 +215,11 @@
 
 
     .row.justify-content-center 
-      .col-md-10.mb-5(data-aos="fade-down")  
+      .col-lg-10.mb-5(data-aos="fade-down")  
         .tarjeta.bg-color-secundario.p-3
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-2.px-md-4
-              img.px-md-4(src="@/assets/curso/temas/t1/pdf.svg")
+            .col-3.col-sm-2.col-lg-2.px-lg-4
+              img.px-lg-4(src="@/assets/curso/temas/t1/pdf.svg")
             .col.ps-md-0
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0

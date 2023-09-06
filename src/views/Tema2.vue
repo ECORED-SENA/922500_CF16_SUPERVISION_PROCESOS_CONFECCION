@@ -12,15 +12,15 @@
         .row.justify-content-center.align-items-center
           
           .row.justify-content-center.mb-5
-            .col-md-4.pe-md-0(data-aos="fade-right")
+            .col-lg-4.col-md-8.pe-lg-0(data-aos="fade-right")
               img(src='@/assets/curso/temas/t2/img.png' alt='')
-            .col-md-6.ps-md-0(data-aos="fade-left")
+            .col-lg-6.ps-lg-0(data-aos="fade-left")
               .bg-2.h-100.p-4.px-md-5.d-flex.align-items-center
                 p.mb-0 Como se pudo observar anteriormente, hay un método en el que se pueden desarrollar pruebas para determinar la composición de una fibra junto con los atributos que contiene, una vez estas pasan por un proceso de combustión. Esto, en gran parte, es insumo en las pruebas que se llevan a cabo dentro de un laboratorio textil. En este apartado, se ahondará más en la identificación de fibras a través de ensayos técnicos; por ello, tenga presente que son dos grupos los que se establecen en este proceso, siendo el segundo el que se abordará.
 
           .col-md-10
             .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")   
-              p.mb-0 Figura 1. Tipos de ensayos 
+              p.mb-0 #[b Figura 1.] Tipos de ensayos 
             figure.mb-4(data-aos="fade-down")    
               img(src='@/assets/curso/temas/t2/fig.svg' alt='Los tipos de ensayos en identificación de fibras son: no técnicos, los cuales son por tacto o por combustión; y los técnicos, que son por observación microscópica, por solubilidad química, por determinación del punto de fusión, por gravedad específica, por teñido y  por espectroscopía infrarroja.')
               figcaption.mt-3
@@ -51,14 +51,14 @@
           
           p.mb-4(data-aos="fade") En este método, los resultados del análisis son de corte cualitativo, es especialmente aplicado cuando existe mezcla de fibras; pasa a ser cuantitativo una vez se realizan los suficientes ensayos para reducir el margen de error en las conclusiones a las que se llega una vez finaliza este proceso. 
 
-          .col-md-8.mb-4(data-aos="fade-right")
+          .col-lg-8.mb-4(data-aos="fade-right")
             .bg-3.p-4.mb-4
               p.mb-0 Suele emplearse con mayor frecuencia en el análisis de fibras naturales, dado que las estructuras de las diferentes variantes son muy características y ya se encuentran parametrizadas, lo contrario a las fibras manufacturadas, en las que su estructura puede llegar a variar. Por ende, no será fiable determinar por este método el análisis de una fibra artificial o sintética.  
             p Las microfotografías de fibras consisten en resaltar las características principales de las fibras de acuerdo con las vistas longitudinal y transversal, mostradas en una sección longitudinal a 250 aumentos (250X) o 500 aumentos (500X) (Lockuán, 2013). Para ello, se muestra a continuación cómo se pueden llegar a identificar según una vista en particular:
-          .col-md-4.mb-4.ps-md-0(data-aos="fade-left")
+          .col-lg-4.d-none.d-lg-block.mb-4.ps-md-0(data-aos="fade-left")
             img(src='@/assets/curso/temas/t2/img2.png' alt='')
 
-          .col-md-10
+          .col-lg-10
             .subt.mb-4(data-aos="fade")   
               img.me-2(src='@/assets/curso/temas/t1/boton.svg' alt='' style="width: 40px;") 
               h3.text-white.mb-0.pe-5 Identificación de fibras según vista longitudinal
@@ -66,50 +66,50 @@
             p.mb-4(data-aos="fade") Esta vista consiste en observar una determinada fibra o elemento a lo largo de su eje longitudinal, lo que permite observar:
 
           .row.justify-content-center.align-items-center.mb-3
-            .col-md-3.mb-4.hover-mini
+            .col-lg-3.col-md-4.mb-4.hover-mini
               .row
                 .col-md-9.col-9.pe-0.px-md-0
                   .bg-part-1.h-100.p-3
                     p.mb-0 Forma, irregularidades, circunvoluciones, escamas.
                 .col-md-3.col-3.ps-0
-                  .bg-part-2.h-100.p-3.d-flex.align-items-center
-                    img(src='@/assets/curso/temas/t2/ico3.svg' alt='' style="width:34px;")
-            .col-md-4.mb-4
+                  .bg-part-2.h-100.p-lg-3.p-1.d-flex.align-items-center
+                    img.mx-auto(src='@/assets/curso/temas/t2/ico3.svg' alt='' style="width:34px;")
+            .col-lg-4.col-md-4.mb-4
               img(src='@/assets/curso/temas/t2/img3.svg' alt='')
-            .col-md-3.mb-4.hover-mini
+            .col-lg-3.col-md-4.mb-4.hover-mini
               .row
                 .col-md-9.col-9.pe-0
                   .bg-part-1.h-100.p-3
                     p.mb-0 Partículas de pigmentos mateados o deslustrados.
                 .col-md-3.col-3.ps-0
-                  .bg-part-2.h-100.p-3.d-flex.align-items-center
-                    img(src='@/assets/curso/temas/t2/ico3.svg' alt='' style="width:34px;")
-            .col-md-3.mb-4.hover-mini
+                  .bg-part-2.h-100.p-lg-3.p-1.d-flex.align-items-center
+                    img.mx-auto(src='@/assets/curso/temas/t2/ico3.svg' alt='' style="width:34px;")
+            .col-lg-3.col-md-4.mb-4.hover-mini
               .row.h-100
                 .col-md-9.col-9.pe-0.px-md-0
                   .bg-part-1.h-100.p-3
                     p.mb-0 Nudos o conjunto de fibras muy unidas.
                 .col-md-3.col-3.ps-0
-                  .bg-part-2.h-100.p-3.d-flex.align-items-center
-                    img(src='@/assets/curso/temas/t2/ico3.svg' alt='' style="width:34px;")
-            .col-md-4.mb-4.hover-mini
+                  .bg-part-2.h-100.p-lg-3.p-1.d-flex.align-items-center
+                    img.mx-auto(src='@/assets/curso/temas/t2/ico3.svg' alt='' style="width:34px;")
+            .col-lg-3.col-md-4.mb-4.hover-mini
               .row.h-100
                 .col-md-9.col-9.pe-0
                   .bg-part-1.h-100.p-3
                     p.mb-0 Estrías formadas a lo largo del eje longitudinal.
                 .col-md-3.col-3.ps-0
-                  .bg-part-2.h-100.p-3.d-flex.align-items-center
+                  .bg-part-2.h-100.p-lg-3.p-1.d-flex.align-items-center
                     img.mx-auto(src='@/assets/curso/temas/t2/ico3.svg' alt='' style="width:34px;")
-            .col-md-3.mb-4.hover-mini
+            .col-lg-3.col-md-4.mb-4.hover-mini
               .row.h-100
                 .col-md-9.col-9.pe-0
                   .bg-part-1.h-100.p-3
                     p Color y sus diferencias. 
                 .col-md-3.col-3.ps-0
-                  .bg-part-2.h-100.p-3.d-flex.align-items-center
-                    img(src='@/assets/curso/temas/t2/ico3.svg' alt='' style="width:34px;")        
+                  .bg-part-2.h-100.p-lg-3.p-1.d-flex.align-items-center
+                    img.mx-auto(src='@/assets/curso/temas/t2/ico3.svg' alt='' style="width:34px;")        
                 
-          .col-md-10.mb-5
+          .col-lg-10.mb-5
             p.mb-4(data-aos="fade") En la siguiente tabla se presentan las características de las fibras en una vista longitudinal.
 
             .titulo-sexto.color-acento-contenido(data-aos="fade")  
@@ -154,11 +154,11 @@
                     td.text-center Poliéster 77
                     td Con forma cilíndrica y liso. 
           
-          .col-md-10(data-aos="fade-down")   
+          .col-lg-10(data-aos="fade-down")   
             .tarjeta.bg-color-secundario.p-3
               .row.justify-content-around.align-items-center
-                .col-3.col-sm-2.col-lg-2.px-md-4
-                  img.px-md-3(src="@/assets/curso/temas/t1/video.svg")
+                .col-3.col-sm-2.col-lg-2.px-lg-4
+                  img.px-lg-3(src="@/assets/curso/temas/t1/video.svg")
                 .col.ps-md-0
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
@@ -174,11 +174,11 @@
         .subt.mb-4(data-aos="fade")   
           img.me-2(src='@/assets/curso/temas/t1/boton.svg' alt='' style="width: 40px;") 
           h3.text-white.mb-0.pe-5 Identificación de fibras textiles según vista transversal
-      .row.justify-content-center
-        .col-md-2.mb-4(data-aos="fade-right")  
-          .p-4.bg-blue5.h-100
-            img.px-md-4(src='@/assets/curso/temas/t2/ico4.svg' alt='') 
-        .col-md-8.mb-4(data-aos="fade-left")  
+      .row.justify-content-center.mb-3
+        .col-lg-2.col-md-2.col-5.mb-3(data-aos="fade-right")  
+          .p-lg-4.p-2.bg-blue5.h-100
+            img.px-lg-4(src='@/assets/curso/temas/t2/ico4.svg' alt='') 
+        .col-lg-8.col-md-10.mb-3(data-aos="fade-left")  
           .p-4.bg-blue6.h-100.d-flex.align-items-center
             p.mb-0 Esta vista consiste en observar una determinada fibra o elemento de frente; se emplean láminas metálicas con agujeros donde es introducida la fibra; posteriormente, se corta y se inicia la observación a través del microscopio.
 
@@ -188,73 +188,73 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-end.mb-4
 
-          .col-md-3.mb-4.mb-md-0
+          .col-lg-3.d-none.d-lg-block.mb-4.mb-md-0
             img(src="@/assets/curso/temas/t2/img4.png")
-          .col-md-9.mb-4.mb-md-0
+          .col-lg-9.mb-4.mb-md-0
             SlyderE.bg-white.p-4(indicadores="derecha")
-              .row
+              .row.justify-content-center
                 h4.t-red Forma de la sección 
-                .col-md-4.mb-4.mb-md-0
+                .col-md-4.col-8.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/slide-img1-1.png', alt='')
                   .p-3.text-center.bg-color-secundario.borders-bottom
                     h5.mb-0 Circular
-                .col-md-4.mb-4.mb-md-0
+                .col-md-4.col-8.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/slide-img1-2.png', alt='')
                   .p-3.text-center.bg-color-secundario.borders-bottom
                     h5.mb-0 Triangular
-                .col-md-4.mb-4.mb-md-0
+                .col-md-4.col-8.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/slide-img1-3.png', alt='')
                   .p-3.text-center.bg-color-secundario.borders-bottom
                     h5.mb-0 Cinta irregular lobulada 
-              .row
+              .row.justify-content-center
                 h4.t-red Variabilidad en el tamaño de todas las fibras 
-                .col-md-4.mb-4.mb-md-0
+                .col-md-4.col-8.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/slide-img2-1.png', alt='')
                   .p-3.text-center.bg-color-secundario.borders-bottom
                     h5.mb-0 Trilobal 
-                .col-md-4.mb-4.mb-md-0
+                .col-md-4.col-8.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/slide-img2-2.png', alt='')
                   .p-3.text-center.bg-color-secundario.borders-bottom
                     h5.mb-0 Irregular  
-                .col-md-4.mb-4.mb-md-0
+                .col-md-4.col-8.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/slide-img2-3.png', alt='')
                   .p-3.text-center.bg-color-secundario.borders-bottom
                     h5.mb-0 Circular, diámetros variables 
-              .row
+              .row.justify-content-center
                 h4.t-red Tipo de estructura 
-                .col-md-6.mb-4.mb-md-0
+                .col-md-6.col-8.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/slide-img3-1.png', alt='')
                   .p-3.text-center.bg-color-secundario.borders-bottom
                     h5.mb-0 Sólida 
-                .col-md-6.mb-4.mb-md-0
+                .col-md-6.col-8.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/slide-img3-2.png', alt='')
                   .p-3.text-center.bg-color-secundario.borders-bottom
                     h5.mb-0 Hueca 
-              .row
+              .row.justify-content-center
                 h4.t-red Formas especiales 
-                .col-md-4.mb-4.mb-md-0
+                .col-md-4.col-8.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/slide-img4-1.png', alt='')
                   .p-3.text-center.bg-color-secundario.borders-bottom
                     h5.mb-0 Matriz fibrilar 
-                .col-md-4.mb-4.mb-md-0
+                .col-md-4.col-8.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/slide-img4-2.png', alt='')
                   .p-3.text-center.bg-color-secundario.borders-bottom
                     h5.mb-0 Núcleo  concéntrico 
-                .col-md-4.mb-4.mb-md-0
+                .col-md-4.col-8.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/slide-img4-3.png', alt='')
                   .p-3.text-center.bg-color-secundario.borders-bottom
                     h5.mb-0 Núcleo cubierto concéntrico 
-              .row
+              .row.justify-content-center
                 h4.t-red Contornos
-                .col-md-4.mb-4.mb-md-0
+                .col-md-4.col-8.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/slide-img5-1.png', alt='')
                   .p-3.text-center.bg-color-secundario.borders-bottom
                     h5.mb-0 Lobulada
-                .col-md-4.mb-4.mb-md-0
+                .col-md-4.col-8.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/slide-img5-2.png', alt='')
                   .p-3.text-center.bg-color-secundario.borders-bottom
                     h5.mb-0 Aserrada  
-                .col-md-4.mb-4.mb-md-0
+                .col-md-4.col-8.mb-4.mb-md-0
                   img(src='@/assets/curso/temas/t2/slide-img5-3.png', alt='')
                   .p-3.text-center.bg-color-secundario.borders-bottom
                     h5.mb-0 Angular       
@@ -263,9 +263,9 @@
     p.mb-4(data-aos="fade") En la siguiente tabla, se determinan características de fibras con aspecto transversal.
 
     .row.justify-content-center
-      .col-md-10      
+      .col-lg-10      
         .titulo-sexto.color-acento-contenido(data-aos="fade")  
-          p.mb-0 #[b Tabla 2.]  Aspecto microscópico de fibras textiles en vista longitudinal
+          p.mb-0 #[b Tabla 2.] Fibras textiles con vista transversal
         .tabla-a.color-acento-contenido(data-aos="fade-down")  
           table
             caption.mt-2
@@ -317,15 +317,15 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.mb-4
 
-          .col-md-8.mb-4(data-aos="fade-right")
+          .col-lg-8.mb-4(data-aos="fade-right")
             p Este método consiste en fundir una fibra con agentes químicos específicos, esperando que se comporte de forma inalterable frente a otros; por ejemplo, que dos fibras de diferente origen presenten un comportamiento diferente ante ácidos, bases y solventes orgánicos. 
             .cajon.color-primario.p-4.mb-4
               p.mb-0 No es recomendable este ensayo si una muestra de fibra tiene mezcla o tiene fibras bicomponentes, como las de doble núcleo. Antes de realizar cualquier proceso de solubilidad química, es recomendable verificar estas condiciones con microscopio.  
             p A continuación, se muestran fibras pasadas por este método.
-          .col-md-4.mb-4.ps-md-0(data-aos="fade-left")
+          .col-lg-4.d-none.d-lg-block.mb-4.ps-md-0(data-aos="fade-left")
             img(src='@/assets/curso/temas/t2/img2-2.png' alt='')
 
-          .col-md-10.mb-4
+          .col-lg-10.mb-4
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Tabla 3.]  Identificación de fibras por disolución o solubilidad
             .tabla-a.color-acento-contenido
@@ -378,9 +378,9 @@
     p.mb-4(data-aos="fade") Para que un elemento sólido pase a estado líquido, se requiere de cierta temperatura, a esto se le llama punto de fusión. Este método consiste en ubicar una selección de muestras de fibra sobre una placa de Petri; posteriormente, es llevada al horno, inicia con temperaturas de 10 o 20° C hasta llegar a la temperatura estimada; para que el incremento después de los 20° C se dé de manera gradual, se irá incrementado de a 2° C/min (centígrados por minuto); una vez las fibras empiecen a ablandarse y se forme una masa, este tendrá una apariencia de cobertura líquida. 
 
     .row 
-      .col-md-4.mb-4(data-aos="fade-right")
+      .col-lg-4.d-none.d-lg-block.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/t2/img2-3.png' alt='')
-      .col-md-8.mb-4(data-aos="fade-left")
+      .col-lg-8.mb-4(data-aos="fade-left")
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 Al igual que en el método de solubilidad, no es recomendable este ensayo si una muestra de fibra tiene mezcla o tiene fibras bicomponentes como las de doble núcleo. Antes de realizar cualquier proceso de solubilidad química, es recomendable verificar estas condiciones con microscopio. 
         p En la siguiente tabla, se muestra el comportamiento de fibras al pasarlas por este método.
@@ -443,38 +443,38 @@
       h2 2.4 Método de la densidad o peso específico
 
     .row 
-      .col-md-8.mb-4(data-aos="fade-right")
+      .col-lg-8.mb-4(data-aos="fade-right")
         p Este método emplea una serie de mezclas de disolventes que ayudan en la caracterización del peso o densidad que contiene una fibra en específico; 
           b.t-red consiste en determinar si la densidad de una fibra llega a ser mayor que la del líquido empleado; aquí, la muestra de una fibra se hundirá. 
           | Por el contrario, si la gravedad específica de la fibra es inferior a la del líquido, la muestra de fibra flotará sobre él. Si las densidades son iguales, la muestra de fibra alcanza la mitad del nivel del líquido. (Lockuán, 2013, p.123)
         p
           b.t-red Los solventes empleados para este ensayo suelen ser: 
         .row 
-          .col-md-6.mb-4.hover-mini
+          .col-lg-6.col-md-8.mb-4.hover-mini
             .row
               .col-md-10.col-9.pe-0
                 .bg-part-1.h-100.p-4
                   p.text-center.mb-0 Tetracloroetileno (p = 1,263 g/cm3)
               .col-md-2.col-3.ps-0
-                .bg-part-2.h-100.p-3
+                .bg-part-2.h-100.p-md-3.p-4
                   img(src='@/assets/curso/temas/t2/ico2-4.svg' alt='')
-          .col-md-6.mb-4.hover-mini
+          .col-lg-6.col-md-8.mb-4.hover-mini
             .row
               .col-md-10.col-9.pe-0
                 .bg-part-1.h-100.p-4
                   p.text-center.mb-0 Xileno (p = 0,865 g/cm3)
               .col-md-2.col-3.ps-0
-                .bg-part-2.h-100.p-3
+                .bg-part-2.h-100.p-md-3.p-4
                   img(src='@/assets/curso/temas/t2/ico2-4.svg' alt='')
         p Ambos solventes, vistos puros o en mezclas de volumen de: 10/90, 20/80, 30/70, 40/60, 50/50, 60/40, 70/30, 80/20 y 90/10, ofrecerán un gradiente que llega a abarcar densidades en la mayoría de las fibras textiles pasadas por este método. 
         .bg-4.mb-4.p-4.p-md-3
           .row 
-            .col-md-2.col-5.mb-4.mb-md-0
-              img.px-md-3(src='@/assets/curso/temas/t2/alert.svg' alt='Alert')
+            .col-md-2.col-3.mb-4.mb-md-0
+              img.px-lg-3(src='@/assets/curso/temas/t2/alert.svg' alt='Alert')
             .col-md-10
               p.mb-0 Durante el proceso, se comparan las muestras de fibras con otra conocida, actuando de testigo; serán sumergidas en recipientes transparentes con alguno de los solventes mencionados anteriormente, si ambas fibras llegan a alcanzar el mismo nivel en el líquido, estas densidades serán iguales. 
         p Al igual que en los dos métodos anteriores, no es recomendable este ensayo si una muestra de fibra tiene mezcla o tiene fibras bicomponentes, como las de doble núcleo. Antes de realizar cualquier proceso de solubilidad química, es recomendable verificar estas condiciones con microscopio..
-      .col-md-4.mb-4(data-aos="fade-left")
+      .col-lg-4.d-none.d-lg-block.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/img2-4.png' alt='')
 
 
@@ -491,18 +491,18 @@
         .row.justify-content-center.mb-4
           
           .row.mb-4
-            .col-md-8.mb-4.mb-md-0(data-aos="fade-right")
+            .col-lg-8.mb-4.mb-md-0(data-aos="fade-right")
               .bg-blue4.mb-4.p-4.p-md-3
                 .row 
-                  .col-md-2.col-5.mb-4.mb-md-0
-                    img.px-md-2(src='@/assets/curso/temas/t2/alert.svg' alt='Alert')
+                  .col-md-2.col-3.mb-4.mb-md-0
+                    img.px-lg-2(src='@/assets/curso/temas/t2/alert.svg' alt='Alert')
                   .col-md-10
                     p.mb-0 Se establece que para que este método sea efectivo es preferible emplear fibras no teñidas o desmotadas. No es recomendable, como en los métodos anteriores, utilizar mezclas de fibras o con bicomponentes. Antes del proceso, verificar con el método del microscopio.  
               p En la siguiente tabla, se muestran los colorantes que tiñen las fibras: 
-            .col-md-4.mb-4.mb-md-0(data-aos="fade-left")
+            .col-lg-4.d-none.d-lg-block.mb-4.mb-md-0(data-aos="fade-left")
               img(src='@/assets/curso/temas/t2/img2-5.png' alt='')
 
-          .col-md-10(data-aos="fade-down")
+          .col-lg-10(data-aos="fade-down")
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Tabla 5.] Colorantes en fibras con el método por teñido
             .tabla-a.color-acento-contenido
@@ -571,19 +571,20 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.mb-4
 
-          .col-md-8(data-aos="fade-right")
+          .col-lg-8(data-aos="fade-right")
             .bg-4.mb-4.p-4.p-md-3
               .row 
-                .col-md-2.col-5.mb-4.mb-md-0
-                  img.px-md-2(src='@/assets/curso/temas/t2/alert.svg' alt='AvatarTop')
+                .col-md-2.col-3.mb-4.mb-md-0
+                  img.px-lg-2(src='@/assets/curso/temas/t2/alert.svg' alt='AvatarTop')
                 .col-md-10
                   p.mb-0 Este método es empleado bajo determinación en grupos funcionales que conforman una fibra. Estos grupos son contenidos por un polímero que se encarga de absorber energía infrarroja con longitudes de onda de un grupo en particular, produciendo cambios en modos de vibración. El resultado de este proceso implica la absorción del espectro infrarrojo en la fibra, dentro de los grupos que llegan a identificar una fibra en particular.
             p Este ensayo es realizado a partir de porciones de fibras molidas y bajo suspensión, en los que es usado sobre una placa de sal; también suele emplearse tinturando la muestra y mezclándola con sal, formando una pastilla translúcida medida en un espectrómetro. 
             p Los grupos funcionales mencionados con los colorantes y productos implementados en los acabados pueden llegar a ser detectados con este método. 
-          .col-md-4(data-aos="fade-left")
+          .col-lg-4.col-md-9(data-aos="fade-left")
+            .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")   
+              p.mb-0 #[b Figura 2.] Equipo de medición de espectroscopia infrarroja
             img(src='@/assets/curso/temas/t2/img2-6.png' alt='Equipo de medición de espectroscopia infrarroja')
-            .bg-blue3.text-white.p-4.px-md-3
-              h5.mb-0 Equipo de medición de espectroscopia infrarroja
+
 
 
     Separador
@@ -598,7 +599,7 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center
 
-          .col-md-8.mb-4(data-aos="fade-right")
+          .col-lg-8.mb-4(data-aos="fade-right")
             .subt.mb-4(data-aos="fade")   
               img.me-2(src='@/assets/curso/temas/t1/boton.svg' alt='' style="width: 40px;") 
               h3.text-white.mb-0.pe-5 Longitud de fibras de algodón a través de clasificador de peines
@@ -606,12 +607,12 @@
             .cajon.color-acento-contenido.p-4.mb-4
               p.mb-0 Consiste en la elaboración de un diagrama de distribución con frecuencias para la longitud de las fibras, todo en orden decreciente de acuerdo con su longitud. 
             p Este instrumento contiene nueve peines inferiores y ocho peines superiores, cada peine con espacios de ¼ de pulgada, exceptuando el primer peine inferior de la parte trasera, y con separaciones de 3/16 pulgadas. Como elementos complementarios al peine, está una pinza, un depresor, aguja de disección y tablero  de terciopelo en tonalidad oscura con medidas de 4 pulgadas por 8 pulgadas.
-          .col-md-4.mb-4(data-aos="fade-left")
+          .col-lg-4.col-md-8.col-10.mb-4(data-aos="fade-left")
             img(src='@/assets/curso/temas/t2/img2-7.png' alt='')
 
-          .col-md-8.mb-5
+          .col-lg-8.mb-5
             .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")   
-              p.mb-0 Figura 2. Clasificador de fibras para el algodón
+              p.mb-0 #[b Figura 3.] Clasificador de fibras para el algodón
             figure.mb-4(data-aos="fade-down")    
               img(src='@/assets/curso/temas/t2/fig2.png' alt='Clasificador de fibras para el algodón')
               figcaption.mt-3.bg-white
@@ -623,9 +624,9 @@
               h3.text-white.mb-0.pe-5 Longitud de fibras de algodón a través de clasificador de peines
             p.mb-4(data-aos="fade") En este ensayo, se utiliza un instrumento muy similar al del algodón, difiere en la estructura del equipo, consistiendo en ubicar la muestra de fibras de lana en orden longitudinal, sobre un terciopelo con tonalidad oscura, con ello, se obtiene un diagrama de distribución de las fibras de lana según su longitud. 
 
-          .col-md-4.mb-4(data-aos="fade-right")
+          .col-lg-4.d-none.d-lg-block.mb-4(data-aos="fade-right")
             img(src='@/assets/curso/temas/t2/img2-7-2.png' alt='')
-          .col-md-8.mb-4(data-aos="fade-left")  
+          .col-lg-8.col-md-9.mb-4(data-aos="fade-left")  
             h5.t-red.text-center.mb-4.mb-md-5 Los instrumentos que terminan de complementar el equipo para este ensayo son:
             SlyderF.mb-3.text-center(columnas="col-lg-6 col-xl-6")
               .tarjeta.bg-5.text-center
@@ -660,10 +661,10 @@
       h3.text-white.mb-0.pe-5 Contenido de humedad y recuperación de materiales textiles (higroscopicidad)
 
     .row.mb-4
-      .col-md-7.mb-4(data-aos="fade-right")
+      .col-lg-7.mb-4(data-aos="fade-right")
         p Este ensayo consiste en analizar y determinar la humedad y recuperación del agua en un textil. Para este proceso, se utiliza una estufa de laboratorio textil y una balanza de precisión, además de una calculadora y muestras textiles que pueden ser un tejido en particular (plano o punto), mechas, hilos, cintas, etc.
         h5.t-red De acuerdo con Lockuán (2013, p. 21), la higroscopicidad de los materiales se puede expresar como: 
-      .col-md-5.mb-4(data-aos="fade-left")
+      .col-lg-5.d-none.d-lg-block.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/img2-7-3.png' alt='') 
 
     TabsA.color-acento-botones.mb-5(data-aos="fade-down")
@@ -672,7 +673,7 @@
         p Corresponde a la cantidad de humedad expresada en porcentaje del peso de la muestra antes del secado. Su fórmula es: 
         .row.justify-content-center.mb-4
           .col-md-5
-            img(src='@/assets/curso/temas/t2/form1.svg' alt='') 
+            img(src='@/assets/curso/temas/t2/form1.svg' alt='El porcentaje de humedad es igual al del peso de la muestra húmeda menos el peso de la muestra seca, dividido el peso de la muestra húmeda, por 100.') 
         p Donde: 
         ul.lista-ul--color.color-cento-botones
           li.mb-0
@@ -686,7 +687,7 @@
         p Es la recuperación de la humedad expresada en porcentaje del peso de la muestra seca. Se calcula con la fórmula: 
         .row.justify-content-center.mb-4
           .col-md-5
-            img(src='@/assets/curso/temas/t2/form2.svg' alt='') 
+            img(src='@/assets/curso/temas/t2/form2.svg' alt='El porcentaje de recuperación de la humedad es igual al peso de la muestra húmeda menos el peso de l muestra seca, dividido el peso de la muestra seca, por 100.') 
 
     p.mb-4(data-aos="fade") A continuación, podrá observar los pasos que se deben realizar para hallar la higroscopicidad de un material: 
 
@@ -699,7 +700,7 @@
               .row.justify-content-center.mb-3
                 .col-5.mb-4
                   img(src='@/assets/curso/temas/t2/slide3-img1.svg' alt='')
-                p.text-white.mb-0 Calentar la estufa entre los 105°-110° C.
+                p.text-white.mb-0 Calentar la estufa entre los 105° C - 110° C.
             .tarjeta.bg-blue3.text-center.p-4
               .row.justify-content-center.mb-3
                 .col-5.mb-4
@@ -778,9 +779,9 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-end.mb-4
 
-          .col-md-3.mb-4.mb-md-0(data-aos="fade")
+          .col-lg-3.d-none.d-lg-block.mb-4.mb-md-0(data-aos="fade")
             img(src="@/assets/curso/temas/t2/img2-7-4.png" alt='' )
-          .col-md-9.mb-4.mb-md-0(data-aos="fade")
+          .col-lg-9.mb-4.mb-md-0(data-aos="fade")
             SlyderE.bg-white.p-4(indicadores="derecha")
               .row.justify-content-evenly.mb-3.pt-3
                 .col-md-6.mb-4.mb-md-0
@@ -840,16 +841,15 @@
             img(src="@/assets/curso/temas/t2/tab2-img2.png" alt='' )
 
     .row 
-      .col-md-3.mb-4(data-aos="fade-right")
+      .col-lg-3.d-none.d-lg-block.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/temas/t2/img2-7-5.png" alt='' )
-      .col-md-9.mb-4(data-aos="fade-left")
+      .col-lg-9.mb-4(data-aos="fade-left")
         p Dentro de la industria, se realizan muchas otras pruebas, y esto depende del uso final de un textil. Se pueden llegar a encontrar, basados en normas, más de 200 ensayos; la escogencia de cada uno de ellos depende de la textilera y de las bases que se crean para la producción de elementos o bases textiles. 
         .tarjeta.bg-blue4.mb-4.p-4
           .row 
-            .col-md-2.col-5.mb-4.mb-md-0
-              img.px-md-4(src='@/assets/curso/temas/t2/alert.svg' alt='Alert')
+            .col-md-2.col-3.mb-4.mb-md-0
+              img.px-lg-4(src='@/assets/curso/temas/t2/alert.svg' alt='Alert')
             .col-md-10
-              h4 Para recordar:
               h5.mb-0 Cadena de abastecimiento
               p.mb-0 Son todas las actividades, instalaciones y logísticas, de las que hacen parte la entrada y transformación de los materiales en productos terminados y su posterior distribución, teniendo en cuenta cantidades, fechas, velocidad y costos. En la industria de la moda, se ha venido implementando en los últimos años este concepto con gran éxito, debido a que integra todas las actividades a un objetivo común y más grande.
 
@@ -859,7 +859,7 @@
 
           .col-md-12
             .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")   
-              p.mb-0 Figura 3. Cadena de aprovisionamiento
+              p.mb-0 #[b Figura 4.] Cadena de aprovisionamiento
             figure.mb-5.d-md-block.d-none(data-aos="fade-down")    
               img(src='@/assets/curso/temas/t2/fig3-pc.svg' alt='La cadena de aprovisionamiento tiene este orden: materias prikmas, producción, transporte y logística, agencias o sucursales, almacenamiento o bodegaje, venta, facturación y distribución y entregas.')
             figure.mb-5.d-md-none.d-block(data-aos="fade-down")    
@@ -869,7 +869,7 @@
 
           .col-md-10
             .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")   
-              p.mb-0 Figura 4. Proceso elaboración de tejidos
+              p.mb-0 #[b Figura 5.] Proceso elaboración de tejidos
             figure.mb-4.d-md-block.d-none(data-aos="fade-down")    
               img(src='@/assets/curso/temas/t2/fig4-pc.svg' alt='El proceso de elaboración de tejidos es: materia prima, extracción de la fibra, proceso de la transformación de la fibra, análisis de muestras y ensayos de laboratorio, obtención del hilo, tejidos, procesos textiles y normatividad. ')
             figure.mb-4.d-md-none.d-block(data-aos="fade-down")    
