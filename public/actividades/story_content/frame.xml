@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Actividad did&amp;#225;ctica" />
+              <option name="title_text" value="Actividad did&amp;#225;ctica." />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -75,7 +75,6 @@
           </option>
           <option name="settings" value="false" />
           <option name="fullScreenToggle" value="false" />
-          <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -1191,22 +1190,22 @@
       <string id="acc_enter_fullscreen">Ingresar en el modo de pantalla completa</string>
       <string id="acc_exit_fullscreen">Salir del modo de pantalla completa</string>
       <string id="accessible_text">Texto accesible</string>
-      <string id="modern_video_captions_on">Activado</string>
-      <string id="modern_video_captions_off">Desactivado</string>
-      <string id="modern_video_settings_close">cerrar ajustes de video</string>
-      <string id="modern_video_playback_settings">Ajustes de reproducción del video</string>
-      <string id="acc_modern_video_volume">volumen del video</string>
-      <string id="acc_modern_video_fullscreen">video a pantalla completa</string>
-      <string id="modern_video_normal_speed">Normal</string>
-      <string id="acc_modern_video_playback_speed">velocidad de reproducción</string>
-      <string id="modern_video_playback_speed_title">Velocidad de reproducción</string>
-      <string id="modern_video_captions_label">Subtítulos</string>
-      <string id="acc_modern_video_settings">ajustes del video</string>
-      <string id="acc_modern_video_captions">subtítulos del video</string>
-      <string id="acc_modern_video_pip">miniatura video</string>
-      <string id="acc_modern_video_pause">pausar video</string>
-      <string id="acc_modern_video_play">reproducir video</string>
-      <string id="acc_modern_video_mute">silenciar video</string>
+      <string id="modern_video_captions_on">~øñ</string>
+      <string id="modern_video_captions_off">~øff</string>
+      <string id="modern_video_settings_close">~cløš~e ѵi~deo ~seţt~iñgs</string>
+      <string id="modern_video_playback_settings">~þlaý~bacķ~ šeţ~tiñg~s</string>
+      <string id="acc_modern_video_volume">~ѵide~ø vo~lüӎe</string>
+      <string id="acc_modern_video_fullscreen">~füll~šcře~eñ</string>
+      <string id="modern_video_normal_speed">~Nøřӎ~al</string>
+      <string id="acc_modern_video_playback_speed">~Plaý~bacķ~ šþe~ed</string>
+      <string id="modern_video_playback_speed_title">~Plaý~bacķ~ šþe~ed</string>
+      <string id="modern_video_captions_label">~caþţ~iøñš</string>
+      <string id="acc_modern_video_settings">~ѵide~ø še~ţtiñ~gs</string>
+      <string id="acc_modern_video_captions">~ѵide~ø ca~þţio~ñš</string>
+      <string id="acc_modern_video_pip">~Picţ~üře-~iñ-P~ictu~re</string>
+      <string id="acc_modern_video_pause">~þaüš~e ѵi~deø</string>
+      <string id="acc_modern_video_play">~þlaý~ ѵid~eø</string>
+      <string id="acc_modern_video_mute">~ӎüţe~ ѵid~eø</string>
       <string id="acc_definition">definición</string>
       <string id="definition">Definición</string>
       <string id="search_results">Resultados de la búsqueda</string>
@@ -1328,7 +1327,7 @@
         <slidelink slideid="_player.6g8RcXIVtvA" displaytext="Nuevo Presentación de Microsoft PowerPoint" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6g8RcXIVtvA.6GrUdUpuerp" displaytext="Diapositiva sin título" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6NBSsPqDrnC" displaytext="El microscopio de proyección, el medidor de flujo de aire y el escáner láser, son equipos de medición de                                      .                                        &#xA;&#xA;El torsiómetro, el dinamómetro y el flexiburn, son equipos de medición de características                                    .&#xD;&#xA;El frotímetro, el trufade y el perspirómetro, son equipos de medición de                             .                                &#xD;&#xA;El micronaire permite medir la finura de la fibra textil que se relaciona con su                                        .&#xA;&#xA;El instrumento de medición de altos volúmenes de fibra, es utilizado para medir en poco tiempo gran cantidad &#xA;de                                           de fibras textiles.&#xD;&#xA;El martindale permite medir el nivel de                                           de una tela.&#xD;&#xA;" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6UFJnIyi2MW" displaytext="Arrastrar y soltar" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
