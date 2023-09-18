@@ -373,7 +373,7 @@
 
     #t_2_3
     .titulo-segundo.color-acento-contenido(data-aos="fade")
-      h2 2.3. Método del punto de fusión
+      h2 2.3 Método del punto de fusión
 
     p.mb-4(data-aos="fade") Para que un elemento sólido pase a estado líquido, se requiere de cierta temperatura, a esto se le llama punto de fusión. Este método consiste en ubicar una selección de muestras de fibra sobre una placa de Petri; posteriormente, es llevada al horno, inicia con temperaturas de 10 o 20° C hasta llegar a la temperatura estimada; para que el incremento después de los 20° C se dé de manera gradual, se irá incrementado de a 2° C/min (centígrados por minuto); una vez las fibras empiecen a ablandarse y se forme una masa, este tendrá una apariencia de cobertura líquida. 
 
@@ -581,8 +581,6 @@
             p Este ensayo es realizado a partir de porciones de fibras molidas y bajo suspensión, en los que es usado sobre una placa de sal; también suele emplearse tinturando la muestra y mezclándola con sal, formando una pastilla translúcida medida en un espectrómetro. 
             p Los grupos funcionales mencionados con los colorantes y productos implementados en los acabados pueden llegar a ser detectados con este método. 
           .col-lg-4.col-md-9(data-aos="fade-left")
-            .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")   
-              p.mb-0 #[b Figura 2.] Equipo de medición de espectroscopia infrarroja
             img(src='@/assets/curso/temas/t2/img2-6.png' alt='Equipo de medición de espectroscopia infrarroja')
 
 
@@ -611,11 +609,9 @@
             img(src='@/assets/curso/temas/t2/img2-7.png' alt='')
 
           .col-lg-8.mb-5
-            .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")   
-              p.mb-0 #[b Figura 3.] Clasificador de fibras para el algodón
             figure.mb-4(data-aos="fade-down")    
               img(src='@/assets/curso/temas/t2/fig2.png' alt='Clasificador de fibras para el algodón')
-              figcaption.mt-3.bg-white
+              figcaption.mt-2.bg-white
                 p.mb-0 Nota. Tomado de http://www.pharmacopeia.cn/v29240/usp29nf24s0_c691.html
 
           .col-md-12
@@ -859,7 +855,7 @@
 
           .col-md-12
             .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")   
-              p.mb-0 #[b Figura 4.] Cadena de aprovisionamiento
+              p.mb-0 #[b Figura 2.] Cadena de aprovisionamiento
             figure.mb-5.d-md-block.d-none(data-aos="fade-down")    
               img(src='@/assets/curso/temas/t2/fig3-pc.svg' alt='La cadena de aprovisionamiento tiene este orden: materias prikmas, producción, transporte y logística, agencias o sucursales, almacenamiento o bodegaje, venta, facturación y distribución y entregas.')
             figure.mb-5.d-md-none.d-block(data-aos="fade-down")    
@@ -869,7 +865,7 @@
 
           .col-md-10
             .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-down")   
-              p.mb-0 #[b Figura 5.] Proceso elaboración de tejidos
+              p.mb-0 #[b Figura 3.] Proceso elaboración de tejidos
             figure.mb-4.d-md-block.d-none(data-aos="fade-down")    
               img(src='@/assets/curso/temas/t2/fig4-pc.svg' alt='El proceso de elaboración de tejidos es: materia prima, extracción de la fibra, proceso de la transformación de la fibra, análisis de muestras y ensayos de laboratorio, obtención del hilo, tejidos, procesos textiles y normatividad. ')
             figure.mb-4.d-md-none.d-block(data-aos="fade-down")    
