@@ -145,14 +145,14 @@ export default {
       referencia:
         'Proyecto Arce Escuelas de Diseño. (2013). <em>Identificación de fibras</em> ',
       tipo: 'Video',
-      link: 'https://youtu.be/45ORlEwcfqs',
+      link: 'https://youtu.be/wu3aDXIOEaU',
     },
     {
       tema: 'Otros ensayos realizados dentro de la industria textil',
       referencia:
         'Instron. (2017). <em>Instron® | ASTM D5035 Breaking Force and Elongation of Textile Fabrics (Strip Method)</em> ',
       tipo: 'Video',
-      link: 'https://youtu.be/45ORlEwcfqs',
+      link: 'https://youtu.be/qFodrJlGpBM',
     },
     {
       tema: 'Otros ensayos realizados dentro de la industria textil',

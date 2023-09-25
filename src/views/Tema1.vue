@@ -74,7 +74,7 @@
                     img(src='@/assets/curso/temas/t1/slide-img1.png' alt='')
                 .row.justify-content-center
                   .col-lg-6
-                    h4 Air Flow Meter o Medidor de Flujo de Aire
+                    h4 #[em Air Flow Meter] o Medidor de Flujo de Aire
                     p Este equipo permite realizar una medición del flujo de aire a presión constante o determina la caída de presión a flujo constante y usualmente se aplica sobre lana, aunque también puede utilizarse en algodón. (Pesok, 2012)
                     p Su función consiste en pasar una corriente de aire a través de una muestra del tejido de fibras que han pasado por el proceso de lavado y cardado. Para utilizar dicho equipo, se hace uso de la siguiente fórmula, la cual determina la caída de presión teniendo en cuenta el diámetro de la fibra:
                     img.mx-auto.mb-4(src='@/assets/curso/temas/t1/form.svg' alt='El caudal es igual a la multiplicación de las constantes del aparato y la variable constante, dividido 1 menos la constante e por la constante L.' style="width: 350px")
@@ -87,13 +87,13 @@
                     img(src='@/assets/curso/temas/t1/slide-img2.png' alt='')
                 .row.justify-content-center
                   .col-lg-6
-                    h4 Optical Fibre Diameter Analyser (OFDA)
+                    h4 #[em Optical Fibre Diameter Analyser] (OFDA)
                     p Al igual que un microscopio, este equipo permite ampliar la imagen de cada una de las fibras de un textil al usar una cámara de video para observarlas a través de una pantalla, lo cual facilita la medición del diámetro aparente de dichas fibras (Pesok, 2012).
                   .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide-img3.png' alt='')
                 .row.justify-content-center
                   .col-lg-6
-                    h4 Sirolan-Laserscan o Escáner Láser Sirolan
+                    h4 #[em Sirolan-Laserscan] o Escáner Láser #[em Sirolan]
                     p Este equipo desarrollado en Australia permite medir el diámetro aparente de la fibra textil utilizando un rayo láser, al sumergirla en un líquido determinado; cada una de las fibras pasa por la zona de medición que facilita su observación. (Pesok, 2012). 
                   .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide-img4.png' alt='')
@@ -105,7 +105,7 @@
                     img(src='@/assets/curso/temas/t1/slide-img5.png' alt='')
                 .row.justify-content-center
                   .col-lg-6
-                    h4 High Volume Instrument (HVI)
+                    h4 #[em High Volume Instrument] (HVI)
                     p Este equipo, que en español significa “instrumento de medición de altos volúmenes de fibra”, es utilizado para medir en muy poco tiempo una gran cantidad de características de fibras textiles, como la finura, el color, la madurez, entre otros.
                   .col-lg-5
                     img(src='@/assets/curso/temas/t1/slide-img6.png' alt='')
@@ -198,7 +198,7 @@
           img(src='@/assets/curso/temas/t1/acord-img4.png', alt='')
       .row(numero="5" titulo="Perspirómetro")
         .col-md-7.mb-4.mb-md-0
-          p Al igual que el incubator, este equipo permite realizar medición de la solidez del color de un material textil al entrar en contacto con distintos líquidos, como el agua, el agua de mar o el sudor. Para usar este instrumento, se debe remojar la muestra a estudiar y se somete a una constante presión contra una tela blanca, para determinar el nivel de transferencia de color; además, se mantiene a una temperatura de 38°C. A partir de esto, se mide el cambio del color de la primera muestra y su transferencia en la otra.
+          p Al igual que el incubator, este equipo permite realizar medición de la solidez del color de un material textil al entrar en contacto con distintos líquidos, como el agua, el agua de mar o el sudor. Para usar este instrumento, se debe remojar la muestra a estudiar y se somete a una constante presión contra una tela blanca, para determinar el nivel de transferencia de color; además, se mantiene a una temperatura de 38 °C. A partir de esto, se mide el cambio del color de la primera muestra y su transferencia en la otra.
           p Según el portal web Suttex (2018), este equipo cumple con los estándares AATCC15, AATCC 106, AATCC 107 e ISO 105.
         .col-md-5
           img(src='@/assets/curso/temas/t1/acord-img5.png', alt='')

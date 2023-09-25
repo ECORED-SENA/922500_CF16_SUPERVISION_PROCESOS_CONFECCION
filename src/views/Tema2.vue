@@ -375,7 +375,7 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 2.3 Método del punto de fusión
 
-    p.mb-4(data-aos="fade") Para que un elemento sólido pase a estado líquido, se requiere de cierta temperatura, a esto se le llama punto de fusión. Este método consiste en ubicar una selección de muestras de fibra sobre una placa de Petri; posteriormente, es llevada al horno, inicia con temperaturas de 10 o 20° C hasta llegar a la temperatura estimada; para que el incremento después de los 20° C se dé de manera gradual, se irá incrementado de a 2° C/min (centígrados por minuto); una vez las fibras empiecen a ablandarse y se forme una masa, este tendrá una apariencia de cobertura líquida. 
+    p.mb-4(data-aos="fade") Para que un elemento sólido pase a estado líquido, se requiere de cierta temperatura, a esto se le llama punto de fusión. Este método consiste en ubicar una selección de muestras de fibra sobre una placa de Petri; posteriormente, es llevada al horno, inicia con temperaturas de 10 o 20° C hasta llegar a la temperatura estimada; para que el incremento después de los 20° C se dé de manera gradual, se irá incrementando de a 2° C/min (centígrados por minuto); una vez las fibras empiecen a ablandarse y se forme una masa, este tendrá una apariencia de cobertura líquida. 
 
     .row 
       .col-lg-4.d-none.d-lg-block.mb-4(data-aos="fade-right")
